@@ -1,0 +1,82 @@
+body {
+    padding: 0;
+}
+
+h1 small {
+    color: #337ab7;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:hover .aricle-title {
+    text-decoration: underline;
+}
+
+a p {
+    color: #444;
+}
+
+a .aricle-autor {
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+a .aricle-date {
+    font-size: 0.8em;
+}
+
+a .article-img {
+    margin: 30px 0 5px;
+    border-top: 2px solid #337ab7;
+    padding-top: 10px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+a:hover .article-img {
+    -webkit-box-shadow: inset 0px 10px 0px 0px rgba(51, 122, 183, 1);
+    -moz-box-shadow: inset 0px 10px 0px 0px rgba(51, 122, 183, 1);
+    box-shadow: inset 0px 10px 0px 0px rgba(51, 122, 183, 1);
+}
+
+#ddMeny, #ddBtn {
+    width: 100%;
+    font-size: 1.8em;
+}
+
+
+/* M.Q - For handeling clearfix on last article element */
+@media (min-width: 1200px) {
+    .clr-col:nth-of-type(4n + 5) {
+        clear: both;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .clr-col:nth-of-type(3n + 4) {
+        clear: both;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .clr-col:nth-of-type(2n + 3) {
+        clear: both;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        padding: 50px 0;
+    }
+    
+    #ddBtn, #ddMeny {
+        width: initial;
+        font-size: 1.2em;
+    }
+}

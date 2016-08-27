@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<news>
+    <newstype>
+        <type>Viten</type>
+        <url>http://www.nrk.no/viten/toppsaker.rss</url>
+    </newstype>
+
+    <newstype>
+        <type>Sport</type>
+        <url>http://www.nrk.no/sport/siste.rss</url>
+    </newstype>
+
+    <newstype>
+        <type>Kultur</type>
+        <url>http://www.nrk.no/kultur/toppsaker.rss</url>
+    </newstype>
+</news>
